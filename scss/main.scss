@@ -1,0 +1,32 @@
+$primary-color: #E7E12B;
+$secondary-color: #2BB7E7;
+$tertiarty-color:  #E70C79;
+$primary-text-color: #180710;
+$font-stack:  'Inconsolata', monospace;;
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+
+    background-color: $secondary-color;
+    width: 100%;
+    height: 300px;
+
+}
+
+main{
+    background-color: $tertiarty-color;
+}
+
+footer{
+    $background: #950AF0;
+    background-color: $background;
+    width: 100%;
+    height: 250px;
+}
