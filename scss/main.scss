@@ -1,8 +1,10 @@
 $primary-color: #E7E12B;
 $secondary-color: #2BB7E7;
 $tertiarty-color:  #E70C79;
+$quaternion-color: #8D38C4;
 $primary-text-color: #180710;
-$font-stack:  'Inconsolata', monospace;;
+$font-stack:  'Inconsolata', monospace;
+$paragaph-size: 1.4em;
 
 
 
@@ -25,21 +27,74 @@ nav{
 
     p{
         font-size: 1.5em;
-        padding-left: 30px;
+        padding-left: 10px;
+        
     }
 
     .icons{
         display: flex;
         gap: 20px;
+        padding-top: 20px;
 
         button{
-
             background: none;
             border-style: none;
-        }
+        } 
+    }
+}
+
+article{
+    width: auto;
+    color:  $primary-text-color;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+
+    .impact-section{
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+
+    }
+    
+    h1{
+        font-size: 3em;
+        padding: 0;
+        margin: 0;
         
     }
+    p{
+        font-size: $paragaph-size;
+    }
 
+    button{
+        background: none;
+        border-style: none;
+        width: 12vw;
+        padding: 20px;
+        background-color: $quaternion-color;
+        border-radius: 35px;
+        color: white;
+        font-size: 1em;
+
+
+
+    }
+
+    .impact-section{
+        width: 50%;
+        background-color: aquamarine;
+    }
+        
+        img{
+            width: 25vw;
+            border-radius: 20px;
+        }
+
+    
 }
 
 main{

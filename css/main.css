@@ -15,15 +15,58 @@ nav {
 }
 nav p {
   font-size: 1.5em;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 nav .icons {
   display: flex;
   gap: 20px;
+  padding-top: 20px;
 }
 nav .icons button {
   background: none;
   border-style: none;
+}
+
+article {
+  width: auto;
+  color: #180710;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+}
+article .impact-section {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+article h1 {
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+}
+article p {
+  font-size: 1.4em;
+}
+article button {
+  background: none;
+  border-style: none;
+  width: 12vw;
+  padding: 20px;
+  background-color: #8D38C4;
+  border-radius: 35px;
+  color: white;
+  font-size: 1em;
+}
+article .impact-section {
+  width: 50%;
+  background-color: aquamarine;
+}
+article img {
+  width: 25vw;
+  border-radius: 20px;
 }
 
 main {
