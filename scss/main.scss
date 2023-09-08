@@ -1,10 +1,10 @@
-$primary-color: #E7E12B;
-$secondary-color: #2BB7E7;
+$primary-color: #9ad92c;
+$secondary-color: #31470b;
 $tertiarty-color:  #E70C79;
 $quaternion-color: #8D38C4;
 $primary-text-color: #180710;
 $font-stack:  'Inconsolata', monospace;
-$paragaph-size: 1.4em;
+$paragaph-size: 1.5em;
 
 
 
@@ -48,7 +48,9 @@ article{
     color:  $primary-text-color;
     padding-left: 45px;
     padding-right: 45px;
-    background-color: aqua;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #445a14;
     display: flex;
     justify-content: space-around;
 
@@ -92,6 +94,7 @@ article{
         img{
             width: 25vw;
             border-radius: 20px;
+            height: 500px;
         }
 
     
