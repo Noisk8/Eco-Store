@@ -72,6 +72,35 @@ article img {
   height: 500px;
 }
 
+section {
+  width: 100%;
+  height: auto;
+  background-color: #9ad92c;
+  padding: 80px;
+}
+section h2 {
+  color: #180710;
+  font-size: 1.3em;
+}
+section .healhtcare h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .healhtcare .product-card {
+  width: 12vw;
+  height: auto;
+  background-color: #8D38C4;
+  color: #180710;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .healhtcare .product-card img {
+  width: 200px;
+  height: 250px;
+  background-image: cover;
+  border-radius: 10px;
+}
+
 main {
   background-color: #E70C79;
 }
